@@ -30,8 +30,8 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 ## Procedure
 ## Program:
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Adhithya M R
+RegisterNumber:  212222240002
 ```
 Using NAND Operation:
 
@@ -58,10 +58,22 @@ assign S = ~(P|Q|R);
 assign F = ~S;
 endmodule
 ```
-## RTL realization
-
+## RTL realization:
+NAND:
+![nand](https://user-images.githubusercontent.com/118834761/230769436-c66e52b5-0619-419b-88ee-225823a510f9.png)
+NOR:
+![NOR](https://user-images.githubusercontent.com/118834761/230769443-30bfc11d-1dee-424c-b9da-28f8a00c1d03.png)
 ## Output:
-## RTL
+NAND:
+![nand1](https://user-images.githubusercontent.com/118834761/230769461-03c4f869-4c34-46be-9101-aea1df9917dd.png)
+NOR:
+![nor 1](https://user-images.githubusercontent.com/118834761/230769509-f01614dd-0c56-45ed-8a77-32e426f798d7.png)
+
 ## Timing Diagram
+NAND:
+![nand2](https://user-images.githubusercontent.com/118834761/230769530-0b13b1d2-6b8c-48c1-a0c5-5c4b6d65a795.png)
+NOR:
+![nor 2](https://user-images.githubusercontent.com/118834761/230769540-cb5375ff-4941-43f7-be27-9fb60767ce8d.png)
+
 ## Result:
 Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
